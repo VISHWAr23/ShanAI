@@ -46,7 +46,6 @@ header img{
   font-weight: bold;
   font-family: platypi;
   color: white;
-  -webkit-background-clip: text;
 
 }
 nav ul {
@@ -128,6 +127,9 @@ section h2 {
   background-color: #7a9bcc ;
   padding-bottom: 15%;
 }
+.ser h2{
+  color: #f4f4f4;
+}
 @keyframes slideInRight {
   0% {
     opacity: 0;
@@ -153,11 +155,12 @@ section h2 {
 #about {
   background-color: black;
   color: #f4f4f4;
-}
-#about {
   animation: slideInLeft linear;
   animation-timeline: view();
   animation-range: entry 3% cover 40%;
+}
+#about h2{
+  color: #f4f4f4;
 }
 #contact h2 {
   color: black;
@@ -789,10 +792,6 @@ button:hover .star-6 {
   section {
     padding: 3rem 1rem;
     min-height: 100vh;
-  }
-
-  .card-container {
-    justify-content: center;
   }
 
 
