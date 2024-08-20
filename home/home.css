@@ -1,22 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Hind:wght@300;400;500;600;700&family=Platypi:ital,wght@0,300..800;1,300..800&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 :root {
-  --color: #00a2ff;
+  --color: #00ffead9;
 }
 * {
   font-family:poppins;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  cursor: url("cursor.png")8 8, auto;
 }
 html {
   scroll-behavior: smooth;
 }
 body {
+  cursor: url("/ShanAI/cursor.png")8 8, auto;
   font-family: Arial, sans-serif;
   line-height: 1.6;
   overflow-x: hidden;
-  background-color: #2a8edf3a;
+  background-color:#fdf7f5;
 }
 header {
   position: fixed;
@@ -24,7 +26,7 @@ header {
   left: 0;
   right: 0;
   padding: 1rem;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.644);
   display: flex;
   justify-content: space-evenly;
   gap: 50%;
@@ -39,6 +41,7 @@ header img{
   margin-bottom: -5%;
 }
 .project-name {
+  cursor: url("/ShanAI/cursor.png")8 8, auto;
   font-size: 1.9rem;
   font-weight: bold;
   font-family: platypi;
@@ -47,6 +50,7 @@ header img{
 
 }
 nav ul {
+  cursor: url("/ShanAI/cursor.png")8 8, auto;
   list-style-type: none;
   width: 80%;
   display: flex;
@@ -54,9 +58,11 @@ nav ul {
   color: orange;
 }
 nav ul li {
+  cursor: url("/ShanAI/cursor.png")8 8, auto;
   margin-left: 20px;
 }
 nav ul li a {
+  cursor: url("/ShanAI/cursor.png")8 8, auto;
   text-decoration: none;
   font-weight: bold;
   position: relative;
@@ -97,15 +103,21 @@ section {
   animation: fadeIn 1s ease-in-out;
 }
 section {
-  background-color: #ffffff;
+  background-color: #7a9bcc;
+  background-color: transparent;
 }
 section h2 {
   color: #f4f4f4;
 }
 #home{
   background: transparent;
-  color: black;
-padding-top: 15%;
+  background-image: url(/ShanAI/home/26316.jpg);
+
+  background-color: rgba(0, 0, 0, 0);
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  padding-top: 15%;
 }
 .ser {
   animation: slideInLeft linear;
@@ -113,7 +125,7 @@ padding-top: 15%;
   animation-range: entry 3% cover 40%;
 }
 #service {
-  background: linear-gradient(135deg, rgb(21, 107, 182) 0%, rgb(0, 0, 0) 100%);
+  background-color: #7a9bcc ;
   padding-bottom: 15%;
 }
 @keyframes slideInRight {
@@ -135,7 +147,7 @@ padding-top: 15%;
   animation: slideInRight 1s ease-out;
 }
 .se {
-  padding-right: 70%;
+  padding-right: 0%;
 }
 
 #about {
@@ -151,11 +163,7 @@ padding-top: 15%;
   color: black;
 }
 #contact {
-  background: linear-gradient(
-    135deg,
-    rgba(5, 91, 162, 0.76) 0%,
-    rgb(52, 184, 188) 100%
-  );
+  background-color: #7a9bcc;
   animation: slideInLeft linear;
   animation-timeline: view();
   animation-range: entry 3% cover 40%;
@@ -165,11 +173,7 @@ h2 {
   font-size: 3rem;
 }
 #about {
-  background: linear-gradient(
-    135deg,
-    rgba(5, 91, 162, 0.76) 0%,
-    rgb(52, 184, 188) 100%
-  );
+  background-color: #dcc6b6;
 }
 .dropdown-btn {
   display: none;
@@ -180,6 +184,7 @@ h2 {
   cursor: pointer;
 }
 .card-container {
+  cursor: url("/ShanAI/cursor.png")8 8, auto;
   display: flex;
   overflow-x: auto;
   padding: 20px;
@@ -190,6 +195,7 @@ h2 {
   animation-range: entry 0% cover 40%;
 }
 .card-container {
+  cursor: url("/ShanAI/cursor.png")8 8, auto;
   display: flex;
   overflow-x: auto;
   scroll-behavior: smooth;
@@ -202,6 +208,7 @@ h2 {
 }
 
 .card {
+  cursor: url("/ShanAI/cursor.png")8 8, auto;
   flex: 0 0 auto;
   width: 200px;
   height: 250px;
@@ -222,6 +229,7 @@ h2 {
 }
 
 .card:hover {
+  cursor: url("/ShanAI/cursor.png")8 8, auto;
   transform: scale(1.05) translateY(-10px);
   box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
@@ -320,6 +328,7 @@ h2 {
   text-align: center;
 }
 .send-btn:hover {
+  cursor: url("/ShanAI/cursor.png")8 8, auto;
   opacity: 0.8;
 }
 .contact-form > div img {
@@ -381,7 +390,7 @@ h2 {
 }
 .but a {
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 button {
   position: relative;
@@ -398,7 +407,7 @@ button {
   text-decoration: none;
 }
 .learn.hover {
-  color: #000000;
+  color: #ffffff;
 }
 .star-1 {
   position: absolute;
@@ -478,7 +487,7 @@ button:hover .star-1 {
   left: -30%;
   width: 25px;
   height: auto;
-  filter: drop-shadow(0 0 10px #00a2ff);
+  filter: drop-shadow(0 0 10px #00ffead9);
   z-index: 2;
 }
 
@@ -488,7 +497,7 @@ button:hover .star-2 {
   left: 10%;
   width: 15px;
   height: auto;
-  filter: drop-shadow(0 0 10px #00a2ff);
+  filter: drop-shadow(0 0 10px #00ffead9);
   z-index: 2;
 }
 
@@ -498,13 +507,13 @@ button:hover .star-3 {
   left: 25%;
   width: 5px;
   height: auto;
-  filter: drop-shadow(0 0 10px #00a2ff);
+  filter: drop-shadow(0 0 10px #00ffead9);
   z-index: 2;
 }
 
 button:hover .stars {
   display: block;
-  filter: drop-shadow(0 0 10px #00a2ff);
+  filter: drop-shadow(0 0 10px #00ffead9);
 }
 
 button:hover .star-4 {
@@ -513,7 +522,7 @@ button:hover .star-4 {
   left: 80%;
   width: 8px;
   height: auto;
-  filter: drop-shadow(0 0 10px #00a2ff);
+  filter: drop-shadow(0 0 10px #00ffead9);
   z-index: 2;
 }
 
@@ -523,7 +532,7 @@ button:hover .star-5 {
   left: 115%;
   width: 15px;
   height: auto;
-  filter: drop-shadow(0 0 10px #00a2ff);
+  filter: drop-shadow(0 0 10px #00ffead9);
   z-index: 2;
 }
 
@@ -533,14 +542,15 @@ button:hover .star-6 {
   left: 60%;
   width: 5px;
   height: auto;
-  filter: drop-shadow(0 0 10px #00a2ff);
+  filter: drop-shadow(0 0 10px #00ffead9);
   z-index: 2;
 }
 
 .fil0 {
-  fill: #00a2ff;
+  fill: #00ffead9;
 }
 .footer {
+  cursor: url("/ShanAI/cursor.png")8 8, auto;
   background-color: black;
   color: white;
   padding: 20px;
@@ -556,10 +566,12 @@ button:hover .star-6 {
 }
 
 .footer p {
+  cursor: url("/ShanAI/cursor.png")8 8, auto;
   margin: 0;
   font-size: 1rem;
 }
 .footer {
+  cursor: url("/ShanAI/cursor.png")8 8, auto;
   background-color: black;
   color: white;
   padding: 20px;
@@ -572,6 +584,7 @@ button:hover .star-6 {
 }
 
 .footer-container {
+  cursor: url("/ShanAI/cursor.png")8 8, auto;
   display: flex;
   flex-wrap: wrap;
   max-width: 1200px;
@@ -580,40 +593,48 @@ button:hover .star-6 {
 }
 
 .footer-section {
+  cursor: url("/ShanAI/cursor.png")8 8, auto;
   flex: 1;
   min-width: 200px;
   margin: 10px;
 }
 
 .footer-section h4 {
+  cursor: url("/ShanAI/cursor.png")8 8, auto;
   font-size: 1.2rem;
   margin-bottom: 10px;
 }
 
 .footer-section ul {
+  cursor: url("/ShanAI/cursor.png")8 8, auto;
   list-style: none;
   padding: 0;
 }
 
 .footer-section ul li {
+  cursor: url("/ShanAI/cursor.png")8 8, auto;
   margin-bottom: 5px;
 }
 
 .footer-section ul li a {
+  cursor: url("/ShanAI/cursor.png")8 8, auto;
   color: #f4f4f4;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .footer-section ul li a:hover {
+  cursor: url("/ShanAI/cursor.png")8 8, auto;
   color: #00fffc;
 }
 
 .footer-section p {
+  cursor: url("/ShanAI/cursor.png")8 8, auto;
   margin: 0;
   font-size: 0.9rem;
 }
 .footer #social ul{
+  cursor: url("/ShanAI/cursor.png")8 8, auto;
   display: flex;
   gap:4%
 }
