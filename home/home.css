@@ -8,19 +8,22 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  cursor: url("cursor.png")8 8, auto;
+  
 }
 html {
+
   scroll-behavior: smooth;
 }
 body {
-  cursor: url("/ShanAI/cursor.png")8 8, auto;
+  /* cursor: url("/ShanAI/cursor.png")8 8, auto; */
   font-family: Arial, sans-serif;
   line-height: 1.6;
   overflow-x: hidden;
   background-color:#fdf7f5;
+  /* cursor: pointer; */
 }
 header {
+  /* cursor: url("cursor.png")8 8, auto; */
   position: fixed;
   top: 0;
   left: 0;
@@ -34,23 +37,24 @@ header {
   z-index: 1000;
 }
 header img{
+  /* cursor: url("cursor.png")8 8, auto; */
   height: 40px;
   width: 40px;
   margin-left: -18%;
   margin-right: 5%;
   margin-bottom: -5%;
+  
 }
 .project-name {
-  cursor: url("/ShanAI/cursor.png")8 8, auto;
+  /* cursor: url("/ShanAI/cursor.png")8 8, auto; */
   font-size: 1.9rem;
   font-weight: bold;
   font-family: platypi;
   color: white;
-  -webkit-background-clip: text;
 
 }
 nav ul {
-  cursor: url("/ShanAI/cursor.png")8 8, auto;
+  /* cursor: url("/ShanAI/cursor.png")8 8, auto; */
   list-style-type: none;
   width: 80%;
   display: flex;
@@ -62,7 +66,8 @@ nav ul li {
   margin-left: 20px;
 }
 nav ul li a {
-  cursor: url("/ShanAI/cursor.png")8 8, auto;
+  /* cursor: url("/ShanAI/cursor.png")8 8, auto; */
+  cursor: pointer;
   text-decoration: none;
   font-weight: bold;
   position: relative;
@@ -84,6 +89,7 @@ nav ul li a {
   position: absolute;
   border-radius: 10px;
   animation: appear1 0.2s ease-in-out;
+  /* cursor: url("cursor.png")8 8, auto; */
 }
 @keyframes appear1 {
   from {
@@ -101,13 +107,16 @@ section {
   padding: 6rem;
   scroll-margin-top: 70px;
   animation: fadeIn 1s ease-in-out;
+  /* cursor: url("cursor.png")8 8, auto; */
 }
 section {
   background-color: #7a9bcc;
   background-color: transparent;
+  /* cursor: url("cursor.png")8 8, auto; */
 }
 section h2 {
   color: #f4f4f4;
+  /* cursor: url("cursor.png")8 8, auto; */
 }
 #home{
   background: transparent;
@@ -118,15 +127,21 @@ section h2 {
   background-position: center center;
   color: white;
   padding-top: 15%;
+  
 }
 .ser {
   animation: slideInLeft linear;
   animation-timeline: view();
   animation-range: entry 3% cover 40%;
+  
 }
 #service {
   background-color: #7a9bcc ;
   padding-bottom: 15%;
+}
+
+.ser h2{
+  color: #f4f4f4;
 }
 @keyframes slideInRight {
   0% {
@@ -152,12 +167,13 @@ section h2 {
 
 #about {
   background-color: black;
-  color: #f4f4f4;
-}
-#about {
+  color:#000000;
   animation: slideInLeft linear;
   animation-timeline: view();
   animation-range: entry 3% cover 40%;
+}
+#about h2{
+  color: #000000;
 }
 #contact h2 {
   color: black;
@@ -184,7 +200,7 @@ h2 {
   cursor: pointer;
 }
 .card-container {
-  cursor: url("/ShanAI/cursor.png")8 8, auto;
+  
   display: flex;
   overflow-x: auto;
   padding: 20px;
@@ -195,7 +211,7 @@ h2 {
   animation-range: entry 0% cover 40%;
 }
 .card-container {
-  cursor: url("/ShanAI/cursor.png")8 8, auto;
+  
   display: flex;
   overflow-x: auto;
   scroll-behavior: smooth;
@@ -208,7 +224,7 @@ h2 {
 }
 
 .card {
-  cursor: url("/ShanAI/cursor.png")8 8, auto;
+  
   flex: 0 0 auto;
   width: 200px;
   height: 250px;
@@ -229,7 +245,7 @@ h2 {
 }
 
 .card:hover {
-  cursor: url("/ShanAI/cursor.png")8 8, auto;
+  
   transform: scale(1.05) translateY(-10px);
   box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
@@ -327,9 +343,9 @@ h2 {
   transition: all 0.4s ease;
   text-align: center;
 }
-.send-btn:hover {
-  cursor: url("/ShanAI/cursor.png")8 8, auto;
+.send-btn:hover{
   opacity: 0.8;
+  background-color: #000000;
 }
 .contact-form > div img {
   width: 85%;
@@ -549,8 +565,7 @@ button:hover .star-6 {
 .fil0 {
   fill: #00ffead9;
 }
-.footer {
-  cursor: url("/ShanAI/cursor.png")8 8, auto;
+.footer{
   background-color: black;
   color: white;
   padding: 20px;
@@ -565,13 +580,11 @@ button:hover .star-6 {
   z-index: 1000;
 }
 
-.footer p {
-  cursor: url("/ShanAI/cursor.png")8 8, auto;
+.footer p{
   margin: 0;
   font-size: 1rem;
 }
-.footer {
-  cursor: url("/ShanAI/cursor.png")8 8, auto;
+.footer{
   background-color: black;
   color: white;
   padding: 20px;
@@ -583,8 +596,7 @@ button:hover .star-6 {
   flex-wrap: wrap;
 }
 
-.footer-container {
-  cursor: url("/ShanAI/cursor.png")8 8, auto;
+.footer-container{
   display: flex;
   flex-wrap: wrap;
   max-width: 1200px;
@@ -592,51 +604,44 @@ button:hover .star-6 {
   justify-content: space-between;
 }
 
-.footer-section {
-  cursor: url("/ShanAI/cursor.png")8 8, auto;
+.footer-section{
   flex: 1;
   min-width: 200px;
   margin: 10px;
 }
 
-.footer-section h4 {
-  cursor: url("/ShanAI/cursor.png")8 8, auto;
+.footer-section h4{
   font-size: 1.2rem;
   margin-bottom: 10px;
 }
 
-.footer-section ul {
-  cursor: url("/ShanAI/cursor.png")8 8, auto;
+.footer-section ul{
   list-style: none;
   padding: 0;
 }
 
-.footer-section ul li {
-  cursor: url("/ShanAI/cursor.png")8 8, auto;
+.footer-section ul li{
   margin-bottom: 5px;
 }
 
-.footer-section ul li a {
-  cursor: url("/ShanAI/cursor.png")8 8, auto;
+.footer-section ul li a{
   color: #f4f4f4;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
-.footer-section ul li a:hover {
-  cursor: url("/ShanAI/cursor.png")8 8, auto;
+.footer-section ul li a:hover{
   color: #00fffc;
 }
 
-.footer-section p {
-  cursor: url("/ShanAI/cursor.png")8 8, auto;
+.footer-section p{
   margin: 0;
   font-size: 0.9rem;
 }
-.footer #social ul{
-  cursor: url("/ShanAI/cursor.png")8 8, auto;
+.footer #social ul {
   display: flex;
   gap:4%
+  
 }
 
 @media (max-width: 680px) {
@@ -789,10 +794,6 @@ button:hover .star-6 {
   section {
     padding: 3rem 1rem;
     min-height: 100vh;
-  }
-
-  .card-container {
-    justify-content: center;
   }
 
 
